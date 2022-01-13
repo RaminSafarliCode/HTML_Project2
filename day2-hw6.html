@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="border dvsize">
+        <div class="flex h-100">
+            <div class="bckground-red w-70 border"></div>
+            <div class="bckground-red w-30 border"></div>
+        </div>
+        <div class="flex h-200">
+            <div class="bckground-orange w-30 border"></div>
+            <div class="w-70 border">
+                <div class="bckground-purple h-90 border"></div>
+                <div class="bckground-purple h-90 border"></div>
+            </div>
+        </div>
+        <div class="flex h-100">
+            <div class="bckground-cyan w-25 border"></div>
+            <div class="bckground-cyan w-50 border"></div>
+            <div class="bckground-cyan w-25 border"></div>
+        </div>
+    </div>
+
+    <style>
+        .bckground-red{background-color: rgb(255, 66, 66);}
+        .bckground-orange{background-color: rgb(255, 161, 46) ;}
+        .bckground-purple{background-color: rgb(135, 0, 97);}
+        .bckground-cyan{background-color: rgb(10, 107, 143);}
+
+        .border{border: 4px solid white;}
+
+        .flex{display: flex;}
+
+        .dvsize{width: 100%; height: 100%;}
+
+        .w-25{width: 25%;}
+        .w-30{width: 30%;}
+        .w-40{width: 40%;}
+        .w-50{width: 50%;}
+        .w-70{width: 70%;}
+        
+        .h-90{height: 90px}
+        .h-100{height: 100px;}
+        .h-200{height: 200px;}
+    </style>
+</body>
+</html>
